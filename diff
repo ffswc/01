@@ -1,1 +1,26 @@
-html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的底片档案</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: sans-serif; max-width: 800px; margin: auto; padding: 20px; line-height: 1.6; }
+        img { width: 100%; border-radius: 8px; margin-top: 20px; }
+        .info { background: #f9f9f9; padding: 15px; border-radius: 8px; margin: 15px 0; }
+    </style>
+</head>
+<body>
+    <h1>【在这里写底片标题，例如：秋日公园人像】</h1>
+    <div class="info">
+        <p><strong>📷 相机：</strong>【填写相机型号，例如：Leica M6】</p>
+        <p><strong>🎞️ 胶片：</strong>【填写胶片型号，例如：Kodak Portra 400】</p>
+        <p><strong>📅 日期：</strong>【填写拍摄日期，例如：2023年10月27日】</p>
+        <p><strong>📍 地点：</strong>【填写拍摄地点，例如：杭州西湖】</p>
+        <p><strong>⚙️ 参数：</strong>【填写光圈/快门，例如：f/2.8, 1/250s】</p>
+        <p><strong>🧪 冲扫：</strong>【填写冲扫信息，例如：SP3000】</p>
+        <p><strong>📝 备注：</strong>【填写拍摄故事或感受，例如：午后温暖的侧逆光】</p>
+    </div>
+    <!-- 替换下方的图片链接为你的照片在线地址 -->
+    <img src="https://你的图片链接地址.jpg" alt="底片扫描图">
+</body>
+</html>
